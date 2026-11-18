@@ -1,0 +1,73 @@
+{
+  "cargo": [
+    {
+      "ticket": "P1",
+      "trip": "T1",
+      "material": "paper",
+      "station": "N",
+      "weight": "2.000",
+      "pieces": 1,
+      "active": true
+    },
+    {
+      "ticket": "P2",
+      "trip": "T1",
+      "material": "glass",
+      "station": "N",
+      "weight": "1.000",
+      "pieces": 2,
+      "active": true
+    },
+    {
+      "ticket": "P3",
+      "trip": "T2",
+      "material": "metal",
+      "station": "S",
+      "weight": null,
+      "pieces": null,
+      "active": true
+    }
+  ],
+  "charges": [
+    {
+      "line": "C1",
+      "revision": 1,
+      "trip": "T1",
+      "tickets": [],
+      "basis": "weight",
+      "currency": "CNY",
+      "minor": 100,
+      "supersedes": null
+    },
+    {
+      "line": "C2",
+      "revision": 1,
+      "trip": "T1",
+      "tickets": [
+        "P2"
+      ],
+      "basis": "pieces",
+      "currency": "CNY",
+      "minor": 15,
+      "supersedes": null
+    },
+    {
+      "line": "C3",
+      "revision": 1,
+      "trip": "T2",
+      "tickets": [],
+      "basis": "weight",
+      "currency": "USD",
+      "minor": 51,
+      "supersedes": null
+    }
+  ],
+  "credit_notes": [
+    {
+      "id": "R1",
+      "target": "C1/1",
+      "currency": "CNY",
+      "minor": 30
+    }
+  ]
+}

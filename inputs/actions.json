@@ -1,0 +1,54 @@
+[
+  {
+    "step": 1,
+    "table": "cargo",
+    "op": "replace",
+    "key": "P2",
+    "row": {
+      "ticket": "P2",
+      "trip": "T1",
+      "material": "glass",
+      "station": "N",
+      "weight": "1.500",
+      "pieces": 2,
+      "active": true
+    }
+  },
+  {
+    "step": 2,
+    "table": "credit_notes",
+    "op": "append",
+    "row": {
+      "id": "R2",
+      "target": "C1/1",
+      "currency": "CNY",
+      "minor": 90
+    }
+  },
+  {
+    "step": 3,
+    "table": "charges",
+    "op": "append",
+    "row": {
+      "line": "C2",
+      "revision": 2,
+      "trip": "T1",
+      "tickets": [
+        "P2"
+      ],
+      "basis": "pieces",
+      "currency": "USD",
+      "minor": 15,
+      "supersedes": "C2/1"
+    }
+  },
+  {
+    "step": 4,
+    "table": "cargo",
+    "op": "return",
+    "key": "P2",
+    "trip": "T1",
+    "weight": "0.500",
+    "effective": "2026-10-02"
+  }
+]
