@@ -1,0 +1,18 @@
+{
+  "releases": [
+    {
+      "version": "release-seed-0000",
+      "path": "releases/release-seed-0000",
+      "step_cutoff": null,
+      "manifest_sha256": "36ae452aa9f68b6701e50ba39abdad14fde5ec377644dc6a7c623fec0e79e1f1",
+      "table_count": 9
+    },
+    {
+      "version": "release-actions-0004",
+      "path": "releases/release-actions-0004",
+      "step_cutoff": 4,
+      "manifest_sha256": "1d15530508eda340adddfd228a7ff8611702834985ecbc141f9a68cf609698eb",
+      "table_count": 9
+    }
+  ]
+}

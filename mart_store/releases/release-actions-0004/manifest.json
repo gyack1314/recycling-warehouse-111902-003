@@ -1,0 +1,70 @@
+{
+  "version": "release-actions-0004",
+  "step_cutoff": 4,
+  "inputs": {
+    "seed.json": {
+      "bytes": 1327,
+      "sha256": "be830cb9706340d16f6796653d0fa5822fde1bcd72a1c5e7887d5737ab3a09f4"
+    },
+    "actions.json": {
+      "bytes": 930,
+      "sha256": "67345a7150eadcb7fe6b40fc653cfd0178c04678837498dad2b3d1a5e3b1a771"
+    }
+  },
+  "tables": [
+    {
+      "table": "cargo_ticket_history",
+      "rows": 4,
+      "bytes": 3376,
+      "sha256": "ce89f726e29fd398a53b220aad7fe7f9bf0653f93481da49f3165690a9695829"
+    },
+    {
+      "table": "cargo_return",
+      "rows": 1,
+      "bytes": 2114,
+      "sha256": "0b80e56cc076e7017665b1138717883f03fc6546d01b6266a8265739cfa67ed0"
+    },
+    {
+      "table": "charge_revision",
+      "rows": 3,
+      "bytes": 3057,
+      "sha256": "935142cc3cd597346fc740a821a95ed5efa940c36112092ac66c264517288789"
+    },
+    {
+      "table": "credit_note",
+      "rows": 2,
+      "bytes": 2142,
+      "sha256": "1617cb15944c0b6bc09525d652e645ea883265113f20bbe455cbdc8f2b267b25"
+    },
+    {
+      "table": "quarantine_event",
+      "rows": 2,
+      "bytes": 2320,
+      "sha256": "bf3bacec17cffc99b805172ef3a5125b4fa585e1317e14006b849f60f3fac65e"
+    },
+    {
+      "table": "allocation_bridge",
+      "rows": 3,
+      "bytes": 6550,
+      "sha256": "98dd1960c0c6a31647e11e327954297a1a47c0238a60662f9d1238e3d4911f68"
+    },
+    {
+      "table": "unallocated_charge",
+      "rows": 1,
+      "bytes": 3938,
+      "sha256": "7e9283afbba6e8d88f55c802ece6f8d0793fe02a9da723a01b8d0ac398134857"
+    },
+    {
+      "table": "charge_reconciliation",
+      "rows": 3,
+      "bytes": 3189,
+      "sha256": "93d69b35de79de4b9425514fb9a203ac1032ba892601af509b4073b3f68d12ed"
+    },
+    {
+      "table": "trip_transport",
+      "rows": 2,
+      "bytes": 2501,
+      "sha256": "0da408c13bba70d0ce1e41e1b8685cd6269bc54cff2e2b8739cc9b787bde588e"
+    }
+  ]
+}
